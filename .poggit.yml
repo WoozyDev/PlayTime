@@ -4,6 +4,6 @@ branches:
 - master
 projects:
   PlayTime:
-    icon: "icon.jpg"
+    icon: "icon.png"
     path: ""
 ...
