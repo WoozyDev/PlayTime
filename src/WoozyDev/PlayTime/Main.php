@@ -14,7 +14,9 @@ use pocketmine\utils\Config;
 
 class Main extends PluginBase implements Listener
 {
+
     private array $sessions;
+
     public function getSessions(): array
     {
         return $this->sessions;
@@ -37,7 +39,7 @@ class Main extends PluginBase implements Listener
 
     protected function onEnable(): void
     {
-	    $this->sessions = array();
+        $this->sessions = array();
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->getLogger()->info("PlayTime has been enabled. Coded by WoozyDev");
         $this->getScheduler()->scheduleRepeatingTask(new class($this) extends Task {
