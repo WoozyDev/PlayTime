@@ -1,0 +1,13 @@
+name: PlayTime
+author: WoozyDev
+api: 4.0.0
+main: WoozyDev\PlayTime\Main
+version: 1.0.0
+commands:
+  playtime:
+    description: Check your in-game play time.
+    permission: playtime.playtime
+permissions:
+  playtime.playtime:
+    description: Permissions for /playtime
+    default: true
