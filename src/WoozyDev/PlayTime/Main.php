@@ -45,7 +45,6 @@ class Main extends PluginBase implements Listener
     {
         $this->sessions = array();
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getLogger()->info("PlayTime has been enabled. Coded by WoozyDev");
         $this->getScheduler()->scheduleRepeatingTask(new class($this) extends Task {
             private Main $main;
 
@@ -66,10 +65,6 @@ class Main extends PluginBase implements Listener
         }, 20);
     }
 
-    protected function onDisable(): void
-    {
-        $this->getLogger()->info("PlayTime has been disabled. Coded by WoozyDev");
-    }
 
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool
     {
