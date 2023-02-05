@@ -1,5 +1,9 @@
 <?php
 
+/**
+  * Author: WoozyDev
+  */
+
 namespace WoozyDev\PlayTime;
 
 use pocketmine\command\Command;
