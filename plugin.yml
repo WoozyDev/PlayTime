@@ -1,4 +1,5 @@
 name: PlayTime
+description: PlayTime is a PocketMine-MP plugin which you can check your play time and session time.
 author: WoozyDev
 api: 4.0.0
 main: WoozyDev\PlayTime\Main
