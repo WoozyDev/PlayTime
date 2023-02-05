@@ -11,9 +11,9 @@ playtime.playtime - permission for the /playtime command.
 
 ### Screenshots
 Initial: <br>
-[!image](/imgs/first-time.png)<br>
+![image](/imgs/first-time.png)<br>
 After Rejoin: <br>
-[!image](/imgs/after-rejoin.png)
+![image](/imgs/after-rejoin.png)
 <br>
 <br>
 <br>
